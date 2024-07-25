@@ -1,0 +1,303 @@
+{
+    "IC Track Template": [
+        {
+            "Overall Competencies \nIndividual Contributor Track": 999,
+            "Unnamed: 1": 999,
+            "Levels": "Lattice Levels",
+            "P1 - Entry": "L1 - Entry Level",
+            "P2 - Developing": "L2 - Developing",
+            "P3 - Career": "L3 - Professional",
+            "P4 - Advanced ": "L4 - Senior Professional",
+            "P5 - Expert ": "L5 - Expert",
+            "P6 - Principal ": "L6 - Principal"
+        },
+        {
+            "Overall Competencies \nIndividual Contributor Track": "Impact\n\"What you do\"",
+            "Unnamed: 1": "Scope & Complexity \n\nHow you work, who you work with, and your role in projects",
+            "Levels": 999,
+            "P1 - Entry": "\n- You work within your function (or program) and build relationships within your program.\n- You contribute to small or function-specific projects. \n- You follow guidance and participate in check ins within each project.\n\n",
+            "P2 - Developing": "\n- You work within your function (or program) and occasionally interface in cross-program relationships.\n- You contribute to cross-functional / large company projects.\n- You provide regular updates and incorporate input within each project.\n\n",
+            "P3 - Career": "\n- You partner with peers (ie: similar level) in different functions within the org. You contribute to cross-functional projects.\n- You own small or functionally specific projects.\n- You provide updates and incorporate input at key milestones within each project.\n\n",
+            "P4 - Advanced ": "\n- You partner with peers and strategize with leaders across multiple functions within the org to identify work streams for their team.\n- You lead small project teams where you provide direction, and keep stakeholders informed. \n- You determine key milestones and provide updates and check-ins to relevant teams and partners.\n\n",
+            "P5 - Expert ": "\n- You partner with peers and strategize with senior leaders across multiple functions within and outside of the company.\n- You are a stakeholder in company direction.\n- You lead large, high priority, cross-functional, strategic projects, driving multiple decisions that have significant impact on the company\u2019s direction and growth.\n- You ensure your team provides regular updates at key milestones on each project.\n\n",
+            "P6 - Principal ": " - You are the strategic decision maker on company direction. You strategize with senior leaders representing different functions within the org as well as outside of the company (ie: board).\n- You identify, define, and translate company vision and goals into functional projects / direction / objectives for team leaders according to the needs of the business.\n- You ensure your team provides regular updates at key milestones on each project."
+        },
+        {
+            "Overall Competencies \nIndividual Contributor Track": 999,
+            "Unnamed: 1": "Autonomy & Prioritization \n\nWho owns the work and how it is prioritized",
+            "Levels": 999,
+            "P1 - Entry": "\n- You follow specific direction from your manager or leads.\n- You adhere to the prioritization offered by your manager.\n\n",
+            "P2 - Developing": "\n- You interpret and follow general direction  from manager or leads. \n- You collaborate on prioritization with your manager.\n\n",
+            "P3 - Career": "\n- You integrate general direction into your work plan from manager or leads. \n- You suggest prioritization, which is then approved by manager.\n\n",
+            "P4 - Advanced ": "\n- You seek strategic partnership from peers and input from manager or lead. \n- You own your prioritization and provide input for prioritization for lower levels.\n\n",
+            "P5 - Expert ": "\n- You are the strategic lead for your team. You seek partnership from peers and input from leadership team.\n- You prioritize in partnership with senior leaders and set prioritization for lower levels.\n\n",
+            "P6 - Principal ": " - You set strategy across functions. You seek partnership and input from leadership team.\n- You approve prioritization work for your function, your direct reports and lower levels."
+        },
+        {
+            "Overall Competencies \nIndividual Contributor Track": 999,
+            "Unnamed: 1": "Problem Solving \n\nYour ability to apply strategic thinking to work",
+            "Levels": 999,
+            "P1 - Entry": "- You surface and articulate basic problems and*explore solutions** within existing work projects.",
+            "P2 - Developing": " - You identify and articulate problems, extract insights and propose solutions within function.",
+            "P3 - Career": " - You articulate the root cause of problems using logical assumptions. You define trade-offs, then extract and translate insights into solutions.",
+            "P4 - Advanced ": "- You anticipate issues and blockers proactively. \n- You articulate the root cause of problems using logical assumptions. You define trade-offs, then translate insights into solutions.",
+            "P5 - Expert ": "\n- You anticipate future problems and own solutions.\n- You are a key stakeholder on the solutions that are presented to problems that arise. You identify and surface patterns to peers and leadership with regards to the root causes of problems.\n\n",
+            "P6 - Principal ": "\n- You are a key stakeholder and decision maker. You are able to reduce complexity and clarify the most important work for the company.\n- You determine company direction in response to the patterns of problems that are surfaced by lower levels.\n\n"
+        },
+        {
+            "Overall Competencies \nIndividual Contributor Track": "Behavior\n\"How you do it\"",
+            "Unnamed: 1": "Collaboration & Feedback\n\nYour ability to work with others and how you handle feedback",
+            "Levels": 999,
+            "P1 - Entry": " - You own your mistakes, you\u2019re receptive to feedback, and take responsibility for your behavior.\n- You are supportive and helpful to your peers. You collaborate and ask questions to others within your function to get unstuck.\n- You seek to understand other points of view within your team.",
+            "P2 - Developing": " - You recognize your mistakes as they come up and proactively identify methods to prevent them.\n- You are developing your ability to give specific feedback to your peers and manager.  \n- You have strong and effective working relationships with team members.\n- You can identify the value of other points of view within your team.",
+            "P3 - Career": "- You proactively request feedback from others and are open to continuous constructive feedback.\n- You consistently deliver specific feedback to your peers and manager.\n- You\u2019re considered by peers and leaders to be an effective partner in listening. You are skilled at integrating points of view from different teams and types of people.",
+            "P4 - Advanced ": "- You proactively request feedback from others and are open to continuous constructive feedback.\n- You consistently deliver useful feedback to your peers and manager in a way that strengthens relationships and enables projects to advance more quickly. \n- You effectively address and resolve basic conflicts within your function and company.\n- You proactively engage in productive dialog even when there are conflicting views, both inside and outside team.",
+            "P5 - Expert ": "\n- You proactively request feedback from others and are open to continuous constructive feedback.\n- You consistently deliver constructive and timely feedback to people at all levels in a way that strengthens relationships and enables functional initiatives to advance more quickly.\n- You effectively address and consistently resolve conflicts within your team, with cross-functional colleagues and external parties.\n- You anticipate conflicting viewpoints from others.\n\n",
+            "P6 - Principal ": "\n- You proactively request feedback from others and are open to continuous constructive feedback.\n- You consistently deliver constructive and timely feedback to people at all levels in a way that strengthens relationships and enables functional initiatives to advance more quickly.\n- You effectively address and consistently resolve conflicts within your team, with cross-functional colleagues and external parties.\n- You anticipate and integrate conflicting viewpoints from others.\n\n"
+        },
+        {
+            "Overall Competencies \nIndividual Contributor Track": 999,
+            "Unnamed: 1": "Communication\n\nYour ability to write, speak, and manage complex topics as it relates to your work",
+            "Levels": 999,
+            "P1 - Entry": "- You practice professional verbal and written communication skills, in both one-on-one and group settings.\n- You actively listen as team members present complex problems, goals, and ideas, and occasionally contribute in a way that is accessible.",
+            "P2 - Developing": " - You consistently demonstrate professional verbal and written communication skills, in both one-on-one and group settings. \n- You actively listen, and work with team members to present complex problems, goals, and ideas in a way that is accessible.",
+            "P3 - Career": "- You develop compelling narratives and present them both verbally and in written form, in one-on-ones and in group settings, in a way that people can easily digest and assess.\n- You independently present complex problems, goals, and ideas in a way that is accessible even to those unfamiliar with the project.",
+            "P4 - Advanced ": " - You excel, and regularly coach other employees, in verbal and written communication skills in both one-on-one and group settings. \n- You lead and direct group conversations around complex problems, goals, and ideas. You keep the team on track and focused on delivering actionable next steps.",
+            "P5 - Expert ": "\n- You improve how your team communicates by defining processes, standards, best practices, and new ways of showing work.\n- You proactively anticipate and then lead and direct conversations around complex problems, goals, tradeoffs, and ideas.\n\n",
+            "P6 - Principal ": " - You set an example for tone and  communication standards within your function and across the company.\n- You hold leaders accountable to creating and cultivating excellence in effective conversations across the organization."
+        },
+        {
+            "Overall Competencies \nIndividual Contributor Track": 999,
+            "Unnamed: 1": "Reliability\n\nYour ability to consistently produce a quality work product",
+            "Levels": 999,
+            "P1 - Entry": "- You honor basic commitments to the team and consistently deliver on projects.",
+            "P2 - Developing": "- You support your team while still consistently delivering on projects.",
+            "P3 - Career": " - You support your team while consistently delivering on projects, and communicate promptly to set expectations appropriately.",
+            "P4 - Advanced ": "- You\u2019re widely regarded as someone who does what they say they\u2019re going to do.\n- You enable consistent delivery on projects across your team.",
+            "P5 - Expert ": "\n- You always deliver and actively help others deliver on work. You are accountable for the reliability of your project, group or function.\n\n",
+            "P6 - Principal ": "- You always deliver and actively help teams deliver on work. You are accountable for the reliability of your function and company."
+        },
+        {
+            "Overall Competencies \nIndividual Contributor Track": 999,
+            "Unnamed: 1": "Living Values\n\nYour ability to understand, demonstrate, and apply company values to your work",
+            "Levels": 999,
+            "P1 - Entry": "\n- You understand company values and demonstrate them through your behaviors.\n\n",
+            "P2 - Developing": "\n- You understand company values and demonstrate them through your behaviors.\n\n",
+            "P3 - Career": "- You exemplify company values and are able to identify corresponding behaviors in others.",
+            "P4 - Advanced ": "\n- You exemplify company values and actively encourage others to demonstrate them by identifying corresponding behaviors.\n\n",
+            "P5 - Expert ": "\n- You exemplify company values and hold others accountable to them by promoting and celebrating corresponding behaviors.\n\n",
+            "P6 - Principal ": " - You exemplify company values and hold others accountable to them by promoting and celebrating corresponding behavior, and punishing adverse behavior."
+        },
+        {
+            "Overall Competencies \nIndividual Contributor Track": "FOR LEADERSHIP TO COMPLETE",
+            "Unnamed: 1": 999,
+            "Levels": 999,
+            "P1 - Entry": 999,
+            "P2 - Developing": 999,
+            "P3 - Career": 999,
+            "P4 - Advanced ": 999,
+            "P5 - Expert ": 999,
+            "P6 - Principal ": 999
+        },
+        {
+            "Overall Competencies \nIndividual Contributor Track": "Functional Skills",
+            "Unnamed: 1": "Expertise\n\nThe general experience and knowledge necessary in the role",
+            "Levels": 999,
+            "P1 - Entry": 999,
+            "P2 - Developing": 999,
+            "P3 - Career": 999,
+            "P4 - Advanced ": 999,
+            "P5 - Expert ": 999,
+            "P6 - Principal ": 999
+        },
+        {
+            "Overall Competencies \nIndividual Contributor Track": 999,
+            "Unnamed: 1": "Tools\n\nThe ability to use the required tools necessary in the role",
+            "Levels": 999,
+            "P1 - Entry": 999,
+            "P2 - Developing": 999,
+            "P3 - Career": 999,
+            "P4 - Advanced ": 999,
+            "P5 - Expert ": 999,
+            "P6 - Principal ": 999
+        },
+        {
+            "Overall Competencies \nIndividual Contributor Track": 999,
+            "Unnamed: 1": "Product Knowledge\n\nThe specific knowledge of the product or function necessary in the role",
+            "Levels": 999,
+            "P1 - Entry": 999,
+            "P2 - Developing": 999,
+            "P3 - Career": 999,
+            "P4 - Advanced ": 999,
+            "P5 - Expert ": 999,
+            "P6 - Principal ": 999
+        }
+    ],
+    "Manager Track Template": [
+        {
+            "Overall Competencies \nManager Track ": 999,
+            "Unnamed: 1": 999,
+            "Levels": 999.0,
+            "M3 - Manager Lead": 999,
+            "M4 - Senior Manager": 999,
+            "M5 - Director": 999,
+            "M6 - Senior Director ": 999,
+            "M7 - Vice President (VP)": 999,
+            "Executive - C-Level": 999.0
+        },
+        {
+            "Overall Competencies \nManager Track ": "Impact\n\"What you do\"",
+            "Unnamed: 1": "Scope & Complexity \n\nHow you work, who you work with, and your role in projects",
+            "Levels": 999.0,
+            "M3 - Manager Lead": "- You partner with peers (ie: similar level) in different functions within the org. You contribute to cross-functional projects.\n- You own small or functionally specific projects.\n- You provide updates and incorporate input at key milestones within each project.",
+            "M4 - Senior Manager": " - You partner with peers and strategize with leaders across multiple functions within the org to identify work streams for their team.\n- You lead small project teams where you provide direction, and keep stakeholders informed. \n- You determine key milestones and provide updates and check-ins to relevant teams and partners.",
+            "M5 - Director": " - You partner with peers and strategize with senior leaders across multiple functions within and outside of the company.\n- You are a stakeholder in company direction.\n- You lead large, high priority, cross-functional, strategic projects, driving multiple decisions that have significant impact on the company\u2019s direction and growth.\n- You ensure your team provides regular updates at key milestones on each project.",
+            "M6 - Senior Director ": "- You direct and control the activities of one or more functional areas, divisions, product groups or service areas through senior managers who have overall responsibility for the successful operation of those assigned areas.\n - You partner with peers and strategize with senior leaders across multiple functions within and outside of the company.\n - You are a stakeholder in company direction.\n - You lead large, high priority, cross-functional, strategic projects, driving multiple decisions that have significant impact on the company's direction and growth.\n - You ensure your team provides regular updates at key milestones on each project.\n - Consistently works with abstract ideas or situations across functional areas of the business. Through assessment of intangible variables, identifies and evaluates fundamental issues, providing strategy and direction for major functional areas. Requires in-depth knowledge of the functional area, business strategies, and the company\u2019s goals.",
+            "M7 - Vice President (VP)": " - You are the strategic decision maker on company direction. You strategize with senior leaders representing different functions within the org as well as outside of the company (ie: board).\n- You identify, define, and translate company vision and goals into functional projects / direction / objectives for team leaders according to the needs of the business.\n- You ensure your team provides regular updates at key milestones on each project.",
+            "Executive - C-Level": 999.0
+        },
+        {
+            "Overall Competencies \nManager Track ": 999,
+            "Unnamed: 1": "Autonomy & Prioritization \n\nWho owns the work and how it is prioritized",
+            "Levels": 999.0,
+            "M3 - Manager Lead": " - You integrate general direction into your work plan from manager or leads. \n- You suggest prioritization, which is then approved by manager.",
+            "M4 - Senior Manager": " - You seek strategic partnership from peers and input from manager or lead. \n- You own your prioritization and provide input for prioritization for lower levels.",
+            "M5 - Director": " - You are the strategic lead for your team. You seek partnership from peers and input from leadership team.\n- You prioritize in partnership with senior leaders and set prioritization for lower levels.",
+            "M6 - Senior Director ": "- You are the strategic lead for your teams and functional area. You seek partnership from peers and input from leadership team.\n - You prioritize in partnership with senior leaders and set prioritization for lower levels.",
+            "M7 - Vice President (VP)": " - You set strategy across functions. You seek partnership and input from leadership team.\n- You approve prioritization work for your function, your direct reports and lower levels.",
+            "Executive - C-Level": 999.0
+        },
+        {
+            "Overall Competencies \nManager Track ": 999,
+            "Unnamed: 1": "Problem Solving \n\nYour ability to apply strategic thinking to work",
+            "Levels": 999.0,
+            "M3 - Manager Lead": " - You articulate the root cause of problems using logical assumptions. You define trade-offs, then extract and translate insights into solutions.",
+            "M4 - Senior Manager": " - You anticipate issues and blockers proactively. \n- You articulate the root cause of problems using logical assumptions. You define trade-offs, then translate insights into solutions.",
+            "M5 - Director": "- You anticipate future problems and own solutions.\n- You are a key stakeholder on the solutions that are presented to problems that arise. You identify and surface patterns to peers and leadership with regards to the root causes of problems.",
+            "M6 - Senior Director ": "- You anticipate future problems and own solutions.\n - You are a key stakeholder on the solutions that are presented to problems that arise. You identify and surface patterns to peers and leadership with regards to the root causes of problems.",
+            "M7 - Vice President (VP)": " - You are a key stakeholder and decision maker. You are able to reduce complexity and clarify the most important work for the company.\n- You determine company direction in response to the patterns of problems that are surfaced by lower levels.",
+            "Executive - C-Level": 999.0
+        },
+        {
+            "Overall Competencies \nManager Track ": "Behavior\n\"How you do it\"",
+            "Unnamed: 1": "Collaboration & Feedback\n\nYour ability to work with others and how you handle feedback",
+            "Levels": 999.0,
+            "M3 - Manager Lead": "- You proactively request feedback from others and are open to continuous constructive feedback.\n- You consistently deliver specific feedback to your peers and manager.\n- You\u2019re considered by peers and leaders to be an effective partner in listening. You are skilled at integrating points of view from different teams and types of people",
+            "M4 - Senior Manager": "- You proactively request feedback from others and are open to continuous constructive feedback.\n- You consistently deliver useful feedback to your peers and manager in a way that strengthens relationships and enables projects to advance more quickly. \n- You effectively address and resolve basic conflicts within your function and company.\n- You proactively engage in productive dialog even when there are conflicting views, both inside and outside team.",
+            "M5 - Director": "- You proactively request feedback from others and are open to continuous constructive feedback.\n- You consistently deliver constructive and timely feedback to people at all levels in a way that strengthens relationships and enables functional initiatives to advance more quickly.\n- You effectively address and consistently resolve conflicts within your team, with cross-functional colleagues and external parties.\n- You anticipate conflicting viewpoints from others.",
+            "M6 - Senior Director ": "- You proactively request feedback from others and are open to continuous constructive feedback.\n - You consistently deliver constructive and timely feedback to people at all levels in a way that strengthens relationships and enables company initiatives to advance more quickly.\n - You effectively address and consistently resolve conflicts within your team, with cross-functional colleagues and external parties.\n - You anticipate conflicting viewpoints from others.",
+            "M7 - Vice President (VP)": " - You proactively request feedback from others and are open to continuous constructive feedback.\n- You consistently deliver constructive and timely feedback to people at all levels in a way that strengthens relationships and enables functional initiatives to advance more quickly.\n- You effectively address and consistently resolve conflicts within your team, with cross-functional colleagues and external parties.\n- You anticipate and integrate conflicting viewpoints from others.",
+            "Executive - C-Level": 999.0
+        },
+        {
+            "Overall Competencies \nManager Track ": 999,
+            "Unnamed: 1": "Communication\n\nYour ability to write, speak, and manage complex topics as it relates to your work",
+            "Levels": 999.0,
+            "M3 - Manager Lead": " - You develop compelling narratives and present them both verbally and in written form, in one-on-ones and in group settings, in a way that people can easily digest and assess.\n- You independently present complex problems, goals, and ideas in a way that is accessible even to those unfamiliar with the project.",
+            "M4 - Senior Manager": "- You excel, and regularly coach other employees, in verbal and written communication skills in both one-on-one and group settings. \n- You lead and direct group conversations around complex problems, goals, and ideas. You keep the team on track and focused on delivering actionable next steps.",
+            "M5 - Director": " - You improve how your team communicates by defining processes, standards, best practices, and new ways of showing work.\n- You proactively anticipate and then lead and direct conversations around complex problems, goals, tradeoffs, and ideas.",
+            "M6 - Senior Director ": "- You improve how your team communicates by defining processes, standards, best practices, and new ways of showing work.\n - You proactively anticipate and then lead and direct conversations around complex problems, goals, tradeoffs, and ideas.\n - You hold peers and your team accountable in effective conversations across the organization.",
+            "M7 - Vice President (VP)": " - You set an example for tone and  communication standards within your function and across the company.\n- You hold leaders accountable to creating and cultivating excellence in effective conversations across the organization.",
+            "Executive - C-Level": 999.0
+        },
+        {
+            "Overall Competencies \nManager Track ": 999,
+            "Unnamed: 1": "Reliability\n\nYour ability to consistently produce a quality work product",
+            "Levels": 999.0,
+            "M3 - Manager Lead": " - You support your team while consistently delivering on projects, and communicate promptly to set expectations appropriately.",
+            "M4 - Senior Manager": " - You\u2019re widely regarded as someone who does what they say they\u2019re going to do.\n- You enable consistent delivery on projects across your team.",
+            "M5 - Director": " - You always deliver and actively help others deliver on work. You are accountable for the reliability of your project, group or function.",
+            "M6 - Senior Director ": "- You always deliver and actively help others deliver on work. You are accountable for the reliability of your project, group or function.",
+            "M7 - Vice President (VP)": " - You always deliver and actively help teams deliver on work. You are accountable for the reliability of your function and company.",
+            "Executive - C-Level": 999.0
+        },
+        {
+            "Overall Competencies \nManager Track ": 999,
+            "Unnamed: 1": "Living Values\n\nYour ability to understand, demonstrate, and apply company values to your work",
+            "Levels": 999.0,
+            "M3 - Manager Lead": " - You exemplify company values and are able to identifying corresponding behaviors in others.",
+            "M4 - Senior Manager": " - You exemplify company values and actively encourage others to demonstrate them by identifying corresponding behaviors.",
+            "M5 - Director": " - You exemplify company values and hold others accountable to them by promoting and celebrating corresponding behaviors.",
+            "M6 - Senior Director ": "- You exemplify company values and hold others accountable to them by promoting and celebrating corresponding behaviors.",
+            "M7 - Vice President (VP)": " - You exemplify company values and hold others accountable to them by promoting and celebrating corresponding behavior, and punishing adverse behavior.",
+            "Executive - C-Level": 999.0
+        },
+        {
+            "Overall Competencies \nManager Track ": "Management",
+            "Unnamed: 1": "Development\n\nYour ability to develop and grow your team",
+            "Levels": 999.0,
+            "M3 - Manager Lead": "- You develop your team members and hold career conversations with them.\n- You facilitate an inclusive environment that\u2019s welcoming to all. \n- You are a steward of company culture by consistently translating company values into actionable behaviors for your team.\n- You lead by example, and get actively involved in work as required.",
+            "M4 - Senior Manager": "- You develop and mentor your team members on their career goals. \n- You actively create an inclusive environment that\u2019s welcoming to all. \n- You are a steward of company culture, and help iterate on it as needed. You hold your team accountable to living the company values.\n- You are an advisor to your team or sub-teams and may become actively involved as required.",
+            "M5 - Director": "- You develop and mentor your team members, and coach your managers to do the same. \n- You hold your managers accountable to an inclusive environment that\u2019s welcoming to all.\n- You\u2019re fluent and adept in the company values in service of true engagement and application. You lead or participate in iteration cycles when the stated values no longer match the lived values. \n- You are a trusted advisor and thought partner to the managers on your team. You are skilled at enabling others to execute on problem-solving.",
+            "M6 - Senior Director ": "- You develop and mentor people across your function company, and coach your managers to do the same. \n - You hold your managers accountable to an inclusive environment that's welcoming to all.\n - You are fluent and adept in the company values in service of true engagement and application. You lead or participate in iteration cycles when the stated values no longer match the lived values. \n - You are a trusted advisor and thought partner to the managers on your team. You are skilled at enabling others to execute on problem-solving, with a focus on coaching and rarely getting involved.",
+            "M7 - Vice President (VP)": " - You develop and mentor people across the company, and coach your managers to do the same.\n- You hold the company accountable to an inclusive environment that\u2019s welcoming to all.\n- You constantly seek feedback on company values in service of their iteration and continued relevance.\n- You effectively coach your managers to become skilled enablers, rarely getting actively involved yourself.",
+            "Executive - C-Level": 999.0
+        },
+        {
+            "Overall Competencies \nManager Track ": 999,
+            "Unnamed: 1": "Supervision \n\nHow you delegate the work across your team\n\n",
+            "Levels": 999.0,
+            "M3 - Manager Lead": "- You provide supervision to your direct team. \n- You are accountable for the output of your team. \n- You identify goals and scope your team\u2019s work in partnership with functional leadership.",
+            "M4 - Senior Manager": "- You manage and are accountable for the output of your direct team and potentially some sub-teams.\n- You identify goals and scope your team\u2019s work independently, and align on it with functional leadership.",
+            "M5 - Director": "- You manage and are accountable for the output of at least two or more teams or sub-teams.\n- You partner with your direct reports on identifying goals and scoping their teams\u2019 work, helping them connect it to the company\u2019s vision.",
+            "M6 - Senior Director ": "- You manage and are accountable for the output of at least two or more functional areas, divisions, product groups or service areas\n - You partner with your direct reports on identifying goals and scoping their team's work, helping them connect it to the company's vision.",
+            "M7 - Vice President (VP)": " - You manage and are accountable for the output of multiple functions via senior leaders who have responsibility for the success of their functions.\n- You lead multiple senior leaders as they identify goals and scope their teams\u2019 work, creating a vision for them to connect their goals to.",
+            "Executive - C-Level": 999.0
+        },
+        {
+            "Overall Competencies \nManager Track ": 999,
+            "Unnamed: 1": "Responsibility\n\nWhat work you are accountable to",
+            "Levels": 999.0,
+            "M3 - Manager Lead": "- You deliver on your team\u2019s goals. \n- You are responsible for the growth and development of your direct reports.\n- You embody the management standards of the organization.",
+            "M4 - Senior Manager": " - You deliver on your team\u2019s goals and assist with setting strategy for your function or department.\n- You are responsible for the results, budgets, strategies, and hiring of your team.\n- You exemplify management standards of the organization.",
+            "M5 - Director": " - You set the vision and strategy for two or more teams or sub-teams. You hold your team accountable to their goals.\n- You are responsible for the results, budgets, strategies and hiring of your team. You propose plans for budgeting, execution, and hiring for your function. You own decision making in partnership with functional leadership. \n- You exemplify and hold others accountable to the management standards of the organization.",
+            "M6 - Senior Director ": "- You set the vision and strategy for two or more teams or sub-teams. You hold your team accountable to their goals.\n - You are responsible for the results, budgets, strategies and hiring of your team. You propose plans for budgeting, execution, and hiring for your function. You own decision making in partnership with functional leadership. \n - You exemplify and hold others accountable to the management standards of the organization.",
+            "M7 - Vice President (VP)": " - You set the vision and strategy for one or more functions. You hold your team members accountable to their goals. \n- You are a final decision maker on planning, hiring, budget for your function(s). \n- You consistently exemplify and hold others accountable to the management standards of the organization.",
+            "Executive - C-Level": 999.0
+        },
+        {
+            "Overall Competencies \nManager Track ": "FOR LEADERSHIP TO COMPLETE",
+            "Unnamed: 1": 999,
+            "Levels": 999.0,
+            "M3 - Manager Lead": 999,
+            "M4 - Senior Manager": 999,
+            "M5 - Director": 999,
+            "M6 - Senior Director ": 999,
+            "M7 - Vice President (VP)": 999,
+            "Executive - C-Level": 999.0
+        },
+        {
+            "Overall Competencies \nManager Track ": "Functional Skills",
+            "Unnamed: 1": "Expertise\n\nThe general experience and knowledge necessary in the role",
+            "Levels": 999.0,
+            "M3 - Manager Lead": 999,
+            "M4 - Senior Manager": 999,
+            "M5 - Director": 999,
+            "M6 - Senior Director ": 999,
+            "M7 - Vice President (VP)": 999,
+            "Executive - C-Level": 999.0
+        },
+        {
+            "Overall Competencies \nManager Track ": 999,
+            "Unnamed: 1": "Tools\n\nThe ability to use the required tools necessary in the role",
+            "Levels": 999.0,
+            "M3 - Manager Lead": 999,
+            "M4 - Senior Manager": 999,
+            "M5 - Director": 999,
+            "M6 - Senior Director ": 999,
+            "M7 - Vice President (VP)": 999,
+            "Executive - C-Level": 999.0
+        },
+        {
+            "Overall Competencies \nManager Track ": 999,
+            "Unnamed: 1": "Product Knowledge\n\nThe specific knowledge of the product or function necessary in the role",
+            "Levels": 999.0,
+            "M3 - Manager Lead": 999,
+            "M4 - Senior Manager": 999,
+            "M5 - Director": 999,
+            "M6 - Senior Director ": 999,
+            "M7 - Vice President (VP)": 999,
+            "Executive - C-Level": 999.0
+        }
+    ]
+}
