@@ -8,6 +8,7 @@ import pandas as pd
 import json
 import google.generativeai as genai
 import os
+from flask import Flask, request, jsonify, render_template
 
 
 # In[2]:
@@ -44,20 +45,11 @@ def prepare_prompt(data):
 os.environ["API_KEY"] = "AIzaSyCGXDXXEIsNl66VRhgBVTAplJjAb_UaCU4"
 genai.configure(api_key=os.environ["API_KEY"])
 
-prompt_template = """
-You are a data conversion assistant. Convert the following Radford base data terminology to match the example data terminology:
-
-Radford Data: 
-{input_data}
-
-Converted Data:
-"""
-
 
 # In[5]:
 
 
-def convert_data_with_gpt(prompt_template):
+def generate_summary(prompt_template):
     prompt = prompt_template
     model = genai.GenerativeModel('gemini-1.5-flash')
     response = model.generate_content(prompt)
@@ -67,12 +59,32 @@ def convert_data_with_gpt(prompt_template):
 # In[6]:
 
 
-excel_file = r"C:\Users\prathmesh\OneDrive\Desktop\Codes\Excel_reader\Central Job Leveling Framework - Radford reference.xlsx"
-excel_to_json(excel_file, f'temp.json')
+# excel_file = r"C:\Users\prathmesh\OneDrive\Desktop\Codes\Excel_reader\Central Job Leveling Framework - Radford reference.xlsx"
+# excel_to_json(excel_file, f'temp.json')
 
-sample = json.load(open(r"C:\Users\prathmesh\OneDrive\Desktop\Codes\Excel_reader\Radford Data.json"))
+# sample = json.load(open(r"C:\Users\prathmesh\OneDrive\Desktop\Codes\Excel_reader\Radford Data.json"))
 
-prompt = prepare_prompt(sample)
-output = convert_data_with_gpt(prompt)
-print(output)
+# prompt = prepare_prompt(sample)
+# output = convert_data_with_gpt(prompt)
+# print(output)
 
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/summarize', methods=['POST'])
+def summarize():
+    file = request.files['file']
+    if not file:
+        return jsonify({'error': 'No file uploaded'}), 400
+    
+    data = json.load(file)
+    prompt = prepare_prompt(data)
+    summary = generate_summary(prompt)
+    return jsonify({'summary': summary})
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
