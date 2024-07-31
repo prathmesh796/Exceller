@@ -58,16 +58,6 @@ def generate_summary(prompt_template):
 
 # In[6]:
 
-
-# excel_file = r"C:\Users\prathmesh\OneDrive\Desktop\Codes\Excel_reader\Central Job Leveling Framework - Radford reference.xlsx"
-# excel_to_json(excel_file, f'temp.json')
-
-# sample = json.load(open(r"C:\Users\prathmesh\OneDrive\Desktop\Codes\Excel_reader\Radford Data.json"))
-
-# prompt = prepare_prompt(sample)
-# output = convert_data_with_gpt(prompt)
-# print(output)
-
 app = Flask(__name__)
 
 @app.route('/')
