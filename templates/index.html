@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="\static\style.css">
     <title>Exceller</title>
 </head>
-<body>
-    <h1 class="branding">Upload EXCEL File to Summarize</h1>
+
+<body class="roboto-regular">
+    <h1 class="branding">EXCELLER</h1>
+    <p>summarizing tool for your sheets</p>
     <form id="uploadForm" enctype="multipart/form-data">
         <input type="file" id="fileInput" name="file" accept=".json">
         <button type="submit">Upload and Summarize</button>
     </form>
+    <br>
     <h2>Summary:</h2>
     <pre id="summary"></pre>
 
     <script src="static\script.js"></script>
 </body>
+
 </html>
