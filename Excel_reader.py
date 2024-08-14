@@ -67,14 +67,21 @@ def index():
 @app.route('/summarize', methods=['POST'])
 def summarize():
     file = request.files['file']
-    if not file:
+    if 'file' not in request.files:
         return jsonify({'error': 'No file uploaded'}), 400
     
-    output_file = json.load('output_temp.json')
-    data = excel_to_json(file, output_file)
-    prompt = prepare_prompt(data)
-    summary = generate_summary(prompt)
-    return jsonify({'summary': summary})
+    if file.filename == '':
+        return jsonify({"error": "No file selected for uploading"}), 400
+    
+    try:
+        output_file = json.load('output_temp.json')
+        data = excel_to_json(file, output_file)
+        prompt = prepare_prompt(data)
+        summary = generate_summary(prompt)
+        return jsonify({'summary': summary})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    
 
 
 if __name__ == '__main__':
