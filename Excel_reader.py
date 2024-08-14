@@ -9,13 +9,15 @@ import json
 import google.generativeai as genai
 import os
 from flask import Flask, request, jsonify, render_template
+from io import BytesIO
 
 
 # In[2]:
 
 
 def excel_to_json(file_path, output_file):
-    xls = pd.ExcelFile(file_path)
+    file_stream = BytesIO(file_path.read())
+    xls = pd.ExcelFile(file_stream, engine='openpyxl')
     data = {}
     
     for sheet in xls.sheet_names:
@@ -73,14 +75,19 @@ def summarize():
     if file.filename == '':
         return jsonify({"error": "No file selected for uploading"}), 400
     
-    try:
-        output_file = json.load('output_temp.json')
-        data = excel_to_json(file, output_file)
-        prompt = prepare_prompt(data)
-        summary = generate_summary(prompt)
-        return jsonify({'summary': summary})
-    except Exception as e:
-        return jsonify({"error": str(e)}), 500
+    # try:
+
+    with open('output_temp.json', 'r') as output_temp:
+        output_file = json.load(output_temp)
+
+
+    # output_file = json.load('output_temp.json')
+    data = excel_to_json(file, output_file)
+    prompt = prepare_prompt(data)
+    summary = generate_summary(prompt)
+    return jsonify({'summary': summary})
+    # except Exception as e:
+    #     return jsonify({"error": str(e)}), 500
     
 
 
