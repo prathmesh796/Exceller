@@ -70,7 +70,8 @@ def summarize():
     if not file:
         return jsonify({'error': 'No file uploaded'}), 400
     
-    data = json.load(file)
+    output_file = json.load('output_temp.json')
+    data = excel_to_json(file, output_file)
     prompt = prepare_prompt(data)
     summary = generate_summary(prompt)
     return jsonify({'summary': summary})
