@@ -12,14 +12,15 @@
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="/static/font.css">
     <title>Exceller</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 
 <body class="roboto-regular">
     <header>
-        <h1 class="branding">EXCELLER</h1>
+        <h1 class="branding roboto-black">EXCELLER</h1>
         <p class="tagline roboto-light">Summarizing tool for your sheets</p>
     </header>
-    
+
     <main>
         <div class="container">
             <form id="uploadForm" enctype="multipart/form-data">
@@ -29,7 +30,7 @@
             </form>
 
             <div id="loading" class="loading" style="display:none;">Summarizing...</div>
-            
+
             <h2>Summary:</h2>
             <pre id="summary" class="summary-box" markdown="1"></pre>
         </div>
@@ -39,7 +40,9 @@
         <p>Exceller &copy; 2024 - Your go-to sheet summarizing tool.</p>
     </footer>
 
+
     <script src="/static/script.js"></script>
+
 </body>
 
 </html>

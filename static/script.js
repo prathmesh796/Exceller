@@ -2,7 +2,7 @@ document.getElementById('uploadForm').addEventListener('submit', function(event)
     event.preventDefault();
 
     // Clear previous summary
-    document.getElementById('summary').textContent = '';
+    document.getElementById('summary').innerHTML = '';
     
     // Show loading message
     document.getElementById('loading').style.display = 'block';
@@ -25,8 +25,10 @@ document.getElementById('uploadForm').addEventListener('submit', function(event)
         document.getElementById('loading').style.display = 'none';
 
         if (data.summary) {
-            // Display the summary in the pre element
-            document.getElementById('summary').textContent = data.summary;
+            // Convert the markdown to HTML using Marked.js
+            const htmlContent = marked.parse(data.summary);
+            // Display the HTML content in the 'summary' section
+            document.getElementById('summary').innerHTML = htmlContent;
         } else {
             // Handle the error and display it to the user
             document.getElementById('summary').textContent = 'Error: ' + data.error;
