@@ -10,6 +10,7 @@ import google.generativeai as genai
 import os
 from flask import Flask, request, jsonify, render_template
 from io import BytesIO
+from dotenv import load_dotenv
 
 
 # In[2]:
@@ -44,8 +45,8 @@ def prepare_prompt(data):
 
 # In[4]:
 
-
-os.environ["API_KEY"] = "AIzaSyCGXDXXEIsNl66VRhgBVTAplJjAb_UaCU4"
+load_dotenv()
+os.environ["API_KEY"] = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=os.environ["API_KEY"])
 
 

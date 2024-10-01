@@ -5,7 +5,6 @@
 }
 
 body {
-    /* font-family: 'Roboto', sans-serif; */
     background-color: #f5f5f5;
     color: #333;
     padding: 20px;
@@ -14,6 +13,8 @@ body {
 header {
     text-align: center;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .branding {
@@ -89,11 +90,52 @@ h2 {
     overflow-wrap: break-word;
     white-space: pre-wrap;
     word-wrap: break-word;
-    font-family: 'Roboto Mono', monospace;
 }
 
 footer {
     text-align: center;
     margin-top: 20px;
     color: #7f8c8d;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+
+.github-btn {
+    display: inline-block;
+    padding: 8px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 100%;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.github-btn:hover {
+    background-color: #444;
+}
+
+.summary{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#copyButton {
+    display: inline-block;
+    padding: 5px 8px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#copyButton:hover {
+    background-color: #0056b3;
 }

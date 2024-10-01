@@ -9,6 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="/static/style.css">
     <link rel="stylesheet" href="/static/font.css">
     <title>Exceller</title>
@@ -17,8 +18,14 @@
 
 <body class="roboto-regular">
     <header>
-        <h1 class="branding roboto-black">EXCELLER</h1>
-        <p class="tagline roboto-light">Summarizing tool for your sheets</p>
+        <div></div>
+        <div>
+            <h1 class="branding roboto-black">EXCELLER</h1>
+            <p class="tagline roboto-light">Summarizing tool for your sheets</p>
+        </div>
+        <a href="https://github.com/prathmesh796/Exceller" target="_blank" class="github-btn">
+            <i class="fab fa-github" width="50px"></i>
+        </a>
     </header>
 
     <main>
@@ -26,12 +33,16 @@
             <form id="uploadForm" enctype="multipart/form-data">
                 <label for="fileInput" class="file-label">Choose File</label>
                 <input type="file" id="fileInput" name="file" accept=".xls, .xlsx, .csv" class="file-input">
+                <span id="fileName"></span>
                 <button type="submit" class="upload-btn">Upload and Summarize</button>
             </form>
 
             <div id="loading" class="loading" style="display:none;">Summarizing...</div>
 
-            <h2>Summary:</h2>
+            <div class="summary">
+                <h2>Summary:</h2>
+                <button id="copyButton">Copy Summary</button>
+            </div>
             <pre id="summary" class="summary-box" markdown="1"></pre>
         </div>
     </main>
@@ -40,9 +51,7 @@
         <p>Exceller &copy; 2024 - Your go-to sheet summarizing tool.</p>
     </footer>
 
-
     <script src="/static/script.js"></script>
-
 </body>
 
 </html>
