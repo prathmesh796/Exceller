@@ -8,6 +8,7 @@ import pandas as pd
 import json
 import google.generativeai as genai
 import os
+import logging
 from flask import Flask, request, jsonify, render_template
 from io import BytesIO
 from dotenv import load_dotenv
@@ -93,7 +94,8 @@ def summarize():
         return jsonify({'summary': summary})
     
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
+        app.logger.error("An error occurred: %s", str(e))
+        return jsonify({"error": "An internal error has occurred!"}), 500
 
 
 if __name__ == '__main__':
