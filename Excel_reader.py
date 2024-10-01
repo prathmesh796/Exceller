@@ -29,6 +29,7 @@ def excel_to_json(file_path, output_file):
         json.dump(data, json_file, indent=4)
 
     print(f'Converted {file_path} to output_file')
+    return data
 
 
 # In[3]:
@@ -75,20 +76,23 @@ def summarize():
     if file.filename == '':
         return jsonify({"error": "No file selected for uploading"}), 400
     
-    # try:
+    try:
+        # Save the uploaded Excel file to a temporary location
+        output_file = 'output_temp.json'
 
-    with open('output_temp.json', 'r') as output_temp:
-        output_file = json.load(output_temp)
+        # Convert Excel to JSON and return the data
+        data = excel_to_json(BytesIO(file.read()), output_file)
 
+        # Prepare the prompt for the AI summarization
+        prompt = prepare_prompt(data)
 
-    # output_file = json.load('output_temp.json')
-    data = excel_to_json(file, output_file)
-    prompt = prepare_prompt(data)
-    summary = generate_summary(prompt)
-    return jsonify({'summary': summary})
-    # except Exception as e:
-    #     return jsonify({"error": str(e)}), 500
+        # Generate the summary from the model
+        summary = generate_summary(prompt)
+
+        return jsonify({'summary': summary})
     
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 if __name__ == '__main__':
