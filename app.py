@@ -98,5 +98,4 @@ def summarize():
         return jsonify({"error": "An internal error has occurred!"}), 500
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
