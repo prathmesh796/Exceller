@@ -38,3 +38,8 @@ Feel free to contribute to this project by submitting pull requests, reporting i
 
 This project is licensed under the MIT License. See the [LICENSE](https://choosealicense.com/licenses/mit/) file for more details.
 
+## Screenshots
+
+![App Screenshot](https://github.com/prathmesh796/Exceller/blob/main/img/Screenshot%202024-10-02%20174443.png)
+
+![App Screenshot](https://github.com/prathmesh796/Exceller/blob/main/img/Screenshot%202024-10-02%20174514.png)
